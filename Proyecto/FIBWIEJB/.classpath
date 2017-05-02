@@ -12,5 +12,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Tonib/Downloads/servlet-api.jar/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

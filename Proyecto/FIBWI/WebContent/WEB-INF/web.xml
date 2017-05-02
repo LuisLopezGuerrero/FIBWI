@@ -3,6 +3,5 @@
   <display-name>FIBWI</display-name>
   <welcome-file-list>
     <welcome-file>/JSP/Front/Front.jsp</welcome-file>
-    
   </welcome-file-list>
 </web-app>

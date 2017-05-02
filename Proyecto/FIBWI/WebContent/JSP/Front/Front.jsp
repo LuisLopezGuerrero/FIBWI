@@ -8,6 +8,7 @@
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/CSS/Front/estilos.css"
 	type="text/css"></link>
+	
 
 <title>FIBWI Noticias</title>
 </head>
@@ -42,29 +43,7 @@
 	<footer id="footer">
 	<div id="pie"></div>
 	</footer>
-	<script>
-	$(function(){
-		  $(".slides").slidesjs({
-		    play: {
-		      active: true,
-		        // [boolean] Generate the play and stop buttons.
-		        // You cannot use your own buttons. Sorry.
-		      effect: "slide",
-		        // [string] Can be either "slide" or "fade".
-		      interval: 3000,
-		        // [number] Time spent on each slide in milliseconds.
-		      auto: true,
-		        // [boolean] Start playing the slideshow on load.
-		      swap: true,
-		        // [boolean] show/hide stop and play buttons
-		      pauseOnHover: false,
-		        // [boolean] pause a playing slideshow on hover
-		      restartDelay: 2500
-		        // [number] restart delay on inactive slideshow
-		    }
-		  });
-		});</script>
-	<script language="JavaScript" type="text/javascript"
-		src="${pageContext.request.contextPath}/JAVASCRIPT/Front/script.js"></script>
+
+	<script src="${pageContext.request.contextPath}../../JAVASCRIPT/jquery-3.2.1.min.js" type= "text/javascript"></script>
 </body>
 </html>
