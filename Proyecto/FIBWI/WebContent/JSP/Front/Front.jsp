@@ -16,13 +16,12 @@
 	<h1 id="titulo"></h1>
 	<nav id="menu"></nav> </header>
 	<section id="slider">
-	<div id="cajaimg" >
-		<img class="img1" alt="alt img1"
-			src="${pageContext.request.contextPath}/media/img1.png" /> <img
-			class="img2" alt="alt img 2"
-			src="${pageContext.request.contextPath}/media/img2.png" /> <img
-			class="img3" alt="alt img3"
-			src="${pageContext.request.contextPath}/media/img3.jpg" />
+	<div class="main">
+		<div class="slides">
+			<img src="http://lorempixel.com/1600/900/city/1" alt="">
+			<img src="http://lorempixel.com/1600/900/city/2" alt="">
+			<img src="http://lorempixel.com/1600/900/city/3" alt="">
+		</div>
 	</div>
 	</section id="cuerpo">
 	<main id="noticias">
@@ -43,6 +42,28 @@
 	<footer id="footer">
 	<div id="pie"></div>
 	</footer>
+	<script>
+	$(function(){
+		  $(".slides").slidesjs({
+		    play: {
+		      active: true,
+		        // [boolean] Generate the play and stop buttons.
+		        // You cannot use your own buttons. Sorry.
+		      effect: "slide",
+		        // [string] Can be either "slide" or "fade".
+		      interval: 3000,
+		        // [number] Time spent on each slide in milliseconds.
+		      auto: true,
+		        // [boolean] Start playing the slideshow on load.
+		      swap: true,
+		        // [boolean] show/hide stop and play buttons
+		      pauseOnHover: false,
+		        // [boolean] pause a playing slideshow on hover
+		      restartDelay: 2500
+		        // [number] restart delay on inactive slideshow
+		    }
+		  });
+		});</script>
 	<script language="JavaScript" type="text/javascript"
 		src="${pageContext.request.contextPath}/JAVASCRIPT/Front/script.js"></script>
 </body>
