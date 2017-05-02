@@ -16,7 +16,7 @@
 	<h1 id="titulo"></h1>
 	<nav id="menu"></nav> </header>
 	<section id="slider">
-	<div id = "cajaimg">
+	<div id="cajaimg" >
 		<img class="img1" alt="alt img1"
 			src="${pageContext.request.contextPath}/media/img1.png" /> <img
 			class="img2" alt="alt img 2"
@@ -44,6 +44,6 @@
 	<div id="pie"></div>
 	</footer>
 	<script language="JavaScript" type="text/javascript"
-	src="${pageContext.request.contextPath}/JAVASCRIPT/Front/script.js"></script>
+		src="${pageContext.request.contextPath}/JAVASCRIPT/Front/script.js"></script>
 </body>
 </html>
