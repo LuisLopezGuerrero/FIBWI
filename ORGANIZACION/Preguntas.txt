@@ -1,0 +1,13 @@
+PREGUNTAS//
+
+-envio de noticias? directo al front? o a una bandeja de entrada para aceptar?
+
+-Campos de usuarios?
+
+-Estilos css FIBWI?
+
+-Tienen sistema mailing?Version con texto y link o solo link? Enviar al admin comentarios tambien? enviarle notificacion de todo?
+
+-Herramientas?
+
+-Perfil de usuario?
