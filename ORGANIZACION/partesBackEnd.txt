@@ -1,0 +1,48 @@
+USERS//
+
+-id usuario(nombre)
+-contraseña
+-rol
+
+
+MAILING//
+
+-usuario
+-email del receptor
+-titulo noticia
+-ver 1 : texto y link ver 2 : link
+-cancelar subscripcion
+
+
+
+CALENDARIO//
+
+-Noticias por fecha
+
+HERRAMIENTAS//
+
+-?
+
+CONFIGURACION//
+
+-cerrar sesion 
+-cambiar datos usuario
+
+
+COMENTARIOS//
+
+-moderar comentario
+-eliminar comentario
+
+MEDIA//
+
+-visualizar todas videos y fotos por fecha
+-desplegable que organize segun usuario(palma,manacor,..)
+-modificar y borrar imagen.
+
+NOTICIAS//
+
+-bandeja de entrada de noticias
+-filtro por ayuntamiento
+
+
